@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   web:
-    image: api-doc-auto-generator_app:latest
+    image: accubits/api-doc-auto-generator:latest
     ports:
       - ${PORT:-4567}:4567
     volumes:
@@ -10,7 +10,7 @@ services:
     depends_on:
       - json2md
   json2md:
-    image: json2md:latest
+    image: accubits/json2md:latest
     volumes:
-      - ${INPUT_FILE}:/code/postman.json
+      - ${INPUT_FILE:-./apipost.json}:/code/postman.json
       - ./output:/code/output
