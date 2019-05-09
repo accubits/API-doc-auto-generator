@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  web:
+    image: api-doc-auto-generator_app:latest
+    ports:
+      - ${PORT:-4567}:4567
+    volumes:
+      - ./output/output.md:/usr/src/app/source/index.html.md
+    depends_on:
+      - json2md
+  json2md:
+    image: json2md:latest
+    volumes:
+      - ${INPUT_FILE}:/code/postman.json
+      - ./output:/code/output

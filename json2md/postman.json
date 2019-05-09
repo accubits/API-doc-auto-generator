@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "a5714158-5229-4a97-b4c7-74e86450dd84",
+		"name": "ApiDoc",
+		"description": "Testing the API doc integration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Auth",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "rahul ar",
+									"description": "User name",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
+							"protocol": "http",
+							"host": [
+								"{{HostIP}}"
+							],
+							"port": "{{HostPort}}",
+							"path": [
+								"user",
+								"signup"
+							]
+						},
+						"description": "User sign up"
+					},
+					"response": [
+						{
+							"name": "http://{{HostIP}}:{{HostPort}}/user/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "rahul",
+											"description": "User name",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
+									"protocol": "http",
+									"host": [
+										"{{HostIP}}"
+									],
+									"port": "{{HostPort}}",
+									"path": [
+										"user",
+										"signup"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "82"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"52-fVoFgHnYfDN2yVk2WjtE/w\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 08 May 2019 09:38:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"sucess\": false,\n    \"error\": {\n        \"code\": 403,\n        \"message\": \"data and salt arguments required\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "rahul ar",
+									"description": "User name",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{HostIP}}:{{HostPort}}/user/login",
+							"protocol": "http",
+							"host": [
+								"{{HostIP}}"
+							],
+							"port": "{{HostPort}}",
+							"path": [
+								"user",
+								"login"
+							]
+						},
+						"description": "User login"
+					},
+					"response": [
+						{
+							"name": "http://{{HostIP}}:{{HostPort}}/user/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "rahul",
+											"description": "User name",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
+									"protocol": "http",
+									"host": [
+										"{{HostIP}}"
+									],
+									"port": "{{HostPort}}",
+									"path": [
+										"user",
+										"signup"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "82"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"52-fVoFgHnYfDN2yVk2WjtE/w\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 08 May 2019 09:38:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"sucess\": false,\n    \"error\": {\n        \"code\": 403,\n        \"message\": \"data and salt arguments required\"\n    }\n}"
+						}
+					]
+				}
+			],
+			"description": "User related info"
+		}
+	]
+}

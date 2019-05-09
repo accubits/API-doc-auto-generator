@@ -1,0 +1,4 @@
+output/
+.env
+apipost.json
+json2md/*.pyc
