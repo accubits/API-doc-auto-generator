@@ -1,240 +1,3542 @@
 {
-	"info": {
-		"_postman_id": "a5714158-5229-4a97-b4c7-74e86450dd84",
-		"name": "ApiDoc",
-		"description": "Testing the API doc integration",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "User",
-			"item": [
+	"id": "50962618-0226-4254-9a4c-3987980b8955",
+	"name": "LotteryStore-PRODUCTION",
+	"description": "MyLotteryStore API'S list for both admin and users with detailed description and values.",
+	"auth": null,
+	"events": [
+	  {
+		"listen": "prerequest",
+		"script": {
+		  "id": "fff0a947-4e0d-4f87-8de0-4a8bff52d428",
+		  "type": "text/javascript",
+		  "exec": [
+			""
+		  ]
+		}
+	  },
+	  {
+		"listen": "test",
+		"script": {
+		  "id": "4f738f07-b4e7-4c8e-b19e-424069243e44",
+		  "type": "text/javascript",
+		  "exec": [
+			""
+		  ]
+		}
+	  }
+	],
+	"variables": [],
+	"order": [
+	  "019b7079-df68-44f3-b3e1-53b302e4ab36",
+	  "0231914f-3620-4b5d-b25a-f2a33045bdbd",
+	  "106c7a96-fb12-4230-8da2-93904610b702",
+	  "18e6eb0b-de97-41a6-967e-a5b97622d18a",
+	  "1e640d45-961c-4f71-b894-9bee20847048",
+	  "253e7bb2-e0db-4961-82f8-f62303eb933c",
+	  "26e6851c-b049-4308-b5a4-9d2cfccc64af",
+	  "312250b7-06b0-4a76-90ef-326ca85088e6",
+	  "438943e4-076b-455f-b4ec-8bd0108ce7d3",
+	  "46b6aa43-1a63-42c2-b76d-5ce27d9ba207",
+	  "4a6e3328-9167-439a-a2f0-bb603bf21f58",
+	  "51f22af7-4c85-4e7a-85a8-6dc4e35279b4",
+	  "56dc00b6-f5ce-4240-8856-80b58eff29f1",
+	  "5aa1867b-d061-45a7-b5f2-62786eac8104",
+	  "62bc834d-57e0-4bb7-91f4-e81ab0f817e0",
+	  "660e00d5-2ea5-4a52-8986-bc23dc40694c",
+	  "6c57e0cb-9cbd-44cb-a5ea-b2eb949d2650",
+	  "7f10f541-d88d-48b4-be88-d6617dfca4fd",
+	  "7f138ce0-a1ae-40a9-95dc-27c8aab47899",
+	  "8bc899da-61dd-438c-87f2-6d1a349256c8",
+	  "8d51d028-bbd0-431e-8ff2-2767490262fd",
+	  "a33713ef-9b5b-4cf9-bf9e-fadcc5a780a0",
+	  "b35e3ebb-5015-45b5-aec6-751c1500536a",
+	  "c6d5aab5-a27f-4e46-9a1d-43cb187d0d9f",
+	  "c6e5634e-797c-446f-a685-63999b1b9b32",
+	  "c7a635a2-55ca-4ad4-80fc-2d4e03a6fe57",
+	  "cd5c0f07-8068-4790-9e24-6c76b42e3a3d",
+	  "d09c021c-75db-4b43-aef6-a6a246d2cb4f",
+	  "d6b99278-2bd1-48da-b6e7-4e58d5066be7",
+	  "da9f6ce7-dba9-40d7-9c73-82a4bf605975",
+	  "e38ac8d7-0928-4b99-a06e-a0d40a6a7111",
+	  "eeabc605-5415-4f07-8071-01f2cb202649",
+	  "f7541045-f144-4dac-bb8d-aeb437df52dd"
+	],
+	"folders_order": [
+	  "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38"
+	],
+	"protocolProfileBehavior": [],
+	"folders": [
+	  {
+		"id": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"name": "admin",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"collection": "50962618-0226-4254-9a4c-3987980b8955",
+		"folder": null,
+		"order": [
+		  "0ac70f9b-be6a-42e2-91df-9c2e9eb0118c",
+		  "117f5860-385b-46cc-b743-a201a671d650",
+		  "22eee847-e6f6-4e8e-8903-4c9f0c4b28ed",
+		  "2969875f-2e3e-48bd-9be1-07eb81448368",
+		  "2b1d78f3-4510-4d21-9107-c9177f5020b4",
+		  "2c32bbb0-1ec7-4023-9bbe-8febd5f4fe05",
+		  "34fc267a-dbee-4fbc-84ac-3456e2cabd6d",
+		  "402a0556-2d9a-4f5a-915b-4968abd8e29a",
+		  "5c2756ed-0013-4512-b8d8-0c228b1be41c",
+		  "62e3ad77-00d3-4206-81b2-3c1b2bbcca3f",
+		  "64677221-5ffa-4e73-84d1-33a1b78f845f",
+		  "774323a6-04e5-4b4e-a7fe-0f474caa6860",
+		  "8b70e2a3-7a5d-44af-a52e-b00be803d93b",
+		  "90c6c2cf-13f6-4cf3-8694-fdfeae3085f7",
+		  "97693d65-2753-4d8f-8dc1-6cead46b6f0a",
+		  "9f918306-11e1-4dd4-8e65-7b9e90287aa9",
+		  "a06afc2f-2420-453c-90b7-249e50ca09c7",
+		  "a2d956a2-e5b9-44e0-aaa0-43a10b44de00",
+		  "a3904980-5b86-43c1-96c3-bacaa531ba1f",
+		  "add1be2b-f4e3-420e-81e3-a99ef73ca8d0",
+		  "b51e8323-14ed-4d76-88ec-4b5d4798710e",
+		  "b81e62b1-c7ba-42e0-a6ea-ec137000b3b1",
+		  "bf84aacc-128c-4e75-ba04-28ce3d092f84",
+		  "c1077ad3-5d3a-4535-8b52-dcd2b8a81043",
+		  "c63ed7fc-543b-4d35-a0d7-8b6f2c015fc1",
+		  "d22d9b58-2cda-4f58-80db-4fc3695c5025",
+		  "d6e40527-248c-42ca-983c-01212de3e11a",
+		  "dadecfea-9457-4c04-9ecd-97985999245b",
+		  "e01306b5-49f5-48fc-a419-1078cdfc395c",
+		  "e5f19ef9-78da-4d4c-8f52-7ecd11873e28",
+		  "e73bc849-ea63-424f-ad4e-c8a4621285c5"
+		],
+		"folders_order": [],
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"folderId": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38"
+	  }
+	],
+	"requests": [
+	  {
+		"id": "019b7079-df68-44f3-b3e1-53b302e4ab36",
+		"name": "userTicketResults",
+		"url": "{{URL}}/user/userTicketResults?pageNumber=1",
+		"description": "List the tickets taken for a game",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"description": "",
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  },
+		  {
+			"description": "",
+			"enabled": false,
+			"key": "Authorization",
+			"value": "C4xUel_FJ"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "pageNumber",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be displayed",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "bearer": [
+			{
+			  "key": "token",
+			  "type": "string",
+			  "value": "1R4GBXCFI"
+			}
+		  ],
+		  "type": "bearer"
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "1R4GBXCFI"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: C4xUel_FJ\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "0231914f-3620-4b5d-b25a-f2a33045bdbd",
+		"name": "getWinnerSummary",
+		"url": "{{URL}}/games/getWinnerSummary/1",
+		"description": "Get the winners summary",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "0ac70f9b-be6a-42e2-91df-9c2e9eb0118c",
+		"name": "userList",
+		"url": "{{URL}}/admin/userList?pageNumber=1&limit=2&searchQuery",
+		"description": "List the entire users in the platform",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "pageNumber",
+			"value": "1",
+			"equals": true,
+			"description": "Page to be displayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "2",
+			"equals": true,
+			"description": "Limit to be displayed",
+			"enabled": true
+		  },
+		  {
+			"key": "searchQuery",
+			"value": "",
+			"equals": false,
+			"description": "First name of the user",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "0UP5qur50",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "0UP5qur50"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "106c7a96-fb12-4230-8da2-93904610b702",
+		"name": "getTransactionHistory",
+		"url": "{{URL}}/user/getTransactionHistory",
+		"description": "Get the transaction history of the user",
+		"data": [
+		  {
+			"key": "page",
+			"value": "1",
+			"description": "Page number to be diaplayed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "size",
+			"value": "10",
+			"description": "Limit of the  details to be displayed",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "O136GYHA",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "O136GYHA"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "117f5860-385b-46cc-b743-a201a671d650",
+		"name": "userContestResults",
+		"url": "{{URL}}/admin/userContestResults?id=1",
+		"description": "Displaying the contests participants details",
+		"data": null,
+		"dataOptions": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "id",
+			"value": "1",
+			"description": "",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImFkbWluQG1scy5jb20iLCJpc0FkbWluIjp0cnVlfSwiaWF0IjoxNTcxMzkzMjc2fQ.tiBrzn9y6hfSdQl8ZBawcbnLuQBwXBvsAEb317H6DWA"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImFkbWluQG1scy5jb20iLCJpc0FkbWluIjp0cnVlfSwiaWF0IjoxNTcxMzkzMjc2fQ.tiBrzn9y6hfSdQl8ZBawcbnLuQBwXBvsAEb317H6DWA"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "18e6eb0b-de97-41a6-967e-a5b97622d18a",
+		"name": "registration",
+		"url": "{{URL}}/user/registration",
+		"description": "Registeration page of the user",
+		"data": [
+		  {
+			"key": "emailId",
+			"value": "sijojmvcb@accubits.com",
+			"description": "Email of the user for login",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "firstName",
+			"value": "qwertyu",
+			"description": "First name of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "lastName",
+			"value": "v p",
+			"description": "Last name of the user(Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "dob",
+			"value": "2001-04-04",
+			"description": "Date of birth of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "phoneNo",
+			"value": "12345678901234567890",
+			"description": "Phone number of the user (Minimum length is 10 and maximum length is 20)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "affiliateCode",
+			"value": "test",
+			"description": "Affiliate code of the user if exists",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "password",
+			"value": "sijo1234S!",
+			"description": "Password of the user for login",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "country",
+			"value": "1",
+			"description": "Country of the user(Drop down)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "state",
+			"value": "qwertyui",
+			"description": "State of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "city",
+			"value": "qwerty",
+			"description": "City of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "zip",
+			"value": "1234567",
+			"description": "Zip code of the user(Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "streetAddress",
+			"value": "qwertyu",
+			"description": "Street address of the user(Maximun length 100 characters)",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "1e640d45-961c-4f71-b894-9bee20847048",
+		"name": "getWalletHistory",
+		"url": "{{URL}}/user/getWalletHistory",
+		"description": "Get the wallet history of the user",
+		"data": [
+		  {
+			"key": "page",
+			"value": "1",
+			"description": "Page number to be displayed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "size",
+			"value": "10",
+			"description": "Limit of the details to be displayed",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "O136GYHA",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "O136GYHA"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "22eee847-e6f6-4e8e-8903-4c9f0c4b28ed",
+		"name": "getUserWalletTransactions",
+		"url": "{{URL}}/admin/getUserWalletTransactions?page=1&limit=100&userId=4&date=2019-10-03&status=1",
+		"description": "Get all the wallet transactions of individual users",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "page",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be dislayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "100",
+			"equals": true,
+			"description": "Limit of the details per page",
+			"enabled": true
+		  },
+		  {
+			"key": "userId",
+			"value": "4",
+			"equals": true,
+			"description": "Id of the user",
+			"enabled": true
+		  },
+		  {
+			"key": "date",
+			"value": "2019-10-03",
+			"equals": true,
+			"description": "optional; Transaction date of the ticket (date in UTC)",
+			"enabled": true
+		  },
+		  {
+			"key": "status",
+			"value": "1",
+			"equals": true,
+			"description": "optional;Status of the wallet transactions(",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "253e7bb2-e0db-4961-82f8-f62303eb933c",
+		"name": "makeWalletPayment",
+		"url": "{{URL}}/payment/makeWalletPayment",
+		"description": "Make the payment for the game",
+		"data": [
+		  {
+			"key": "transRefId",
+			"value": "4206d64d-b5e9-4edb-8d42-5568e827ab14",
+			"description": "Id of the transaction details",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "cryptoCurrencyType",
+			"value": "2",
+			"description": "Currency type of the payment\n1 : BTC\n2: ETH",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{user_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{user_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "26e6851c-b049-4308-b5a4-9d2cfccc64af",
+		"name": "getPowerballBanner",
+		"url": "{{URL}}/games/getPowerballBanner",
+		"description": "Powerball banner for displaying the games",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "2969875f-2e3e-48bd-9be1-07eb81448368",
+		"name": "adminLogout",
+		"url": "{{URL}}/admin/adminLogout",
+		"description": "Logout of admin",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "tKlTqCf0s",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "tKlTqCf0s"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "2b1d78f3-4510-4d21-9107-c9177f5020b4",
+		"name": "getPowerballPrizeWinners",
+		"url": "{{URL}}/admin/getPowerballPrizeWinners",
+		"description": "Get the details of powerball winners",
+		"data": [
+		  {
+			"key": "contestId",
+			"value": "1",
+			"description": "Id of the contest",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "prizeType",
+			"value": "6",
+			"description": "Type of the prize\n(\n1:Jackpot amount of the contest\n2: $1 Million\n3:$50,000\n4:$100\n5:$100\n6:$7\n7:$7\n8:$4\n9:$4\n)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "query",
+			"value": "name",
+			"description": "Keyword to be searched(First name, last name and email id of the user)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "page",
+			"value": "1",
+			"description": "Page number to be dispalyed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "size",
+			"value": "10",
+			"description": "Limit of the details to be displayed per page",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "TAjxjwsj",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "TAjxjwsj"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "2c32bbb0-1ec7-4023-9bbe-8febd5f4fe05",
+		"name": "ongoingGamesList",
+		"url": "{{URL}}/admin/ongoingGamesList",
+		"description": "Listing the ongoing games",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "VM9QZ7wVN",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "VM9QZ7wVN"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "312250b7-06b0-4a76-90ef-326ca85088e6",
+		"name": "profilePicUpdation",
+		"url": "{{URL}}/user/profilePicUpdation",
+		"description": "Updating the profile image of a user",
+		"data": [
+		  {
+			"key": "profilePicture",
+			"description": "Profile picture of the user to be replaced",
+			"type": "file",
+			"enabled": true
+		  }
+		],
+		"dataMode": "params",
+		"headerData": [],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dxzaI-tZ",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dxzaI-tZ"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "34fc267a-dbee-4fbc-84ac-3456e2cabd6d",
+		"name": "getEarningSummary",
+		"url": "{{URL}}/admin/getEarningSummary?year=2019",
+		"description": "Get the summary of the earnings",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "year",
+			"value": "2019",
+			"equals": true,
+			"description": "Year to get the earnings graph(YYYY)",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "402a0556-2d9a-4f5a-915b-4968abd8e29a",
+		"name": "deleteUser",
+		"url": "{{URL}}/admin/deleteUser",
+		"description": "Delete a user from the platform",
+		"data": [
+		  {
+			"key": "id",
+			"value": "24",
+			"description": "Id of the user to be deleted",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"description": "",
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"type": "text",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "bearer": [
+			{
+			  "key": "token",
+			  "type": "string",
+			  "value": "__yMTR7RP"
+			}
+		  ],
+		  "type": "bearer"
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "__yMTR7RP"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "438943e4-076b-455f-b4ec-8bd0108ce7d3",
+		"name": "getWalletBalance",
+		"url": "{{URL}}/user/getWalletBalance",
+		"description": "Get the balance in the wallet",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dlLVlrp",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dlLVlrp"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "46b6aa43-1a63-42c2-b76d-5ce27d9ba207",
+		"name": "viewWinners",
+		"url": "{{URL}}/games/viewWinners",
+		"description": "Display the winners of a game",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "noauth"
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "4a6e3328-9167-439a-a2f0-bb603bf21f58",
+		"name": "listCountry",
+		"url": "{{URL}}/master/listCountry",
+		"description": "List the entire country",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "noauth"
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "51f22af7-4c85-4e7a-85a8-6dc4e35279b4",
+		"name": "User Login",
+		"url": "{{URL}}/user/login",
+		"description": "Login section of the user",
+		"data": [
+		  {
+			"key": "username",
+			"value": "sijo@accubits.com",
+			"description": "username of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "password",
+			"value": "Sijo@123",
+			"description": "password of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "device",
+			"value": "mobile",
+			"description": "optional. only for mobile devices",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataOptions": null,
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [
+		  {
+			"listen": "test",
+			"script": {
+			  "id": "9490a976-e27a-42d4-bfb1-f711f153cb5d",
+			  "exec": [
+				"var jsonData = JSON.parse(responseBody);",
+				"if(pm.response.code==200){",
+				"    pm.environment.set(\"user_token\", jsonData.token);    ",
+				"}"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		],
+		"folder": null,
+		"responses": [
+		  {
+			"id": "f94107d5-dabe-429c-80ac-97aa7f2696d1",
+			"name": "User Login",
+			"status": "",
+			"mime": "",
+			"language": "json",
+			"text": "{\"status\":true,\"token\":\"QoJP6eP\",\"data\":\"Login successfull\"}",
+			"responseCode": {
+			  "code": 200,
+			  "name": "OK",
+			  "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"requestObject": {
+			  "url": "http://{{host}}:{{port}}/user/login",
+			  "pathVariableData": [],
+			  "queryParams": [],
+			  "headerData": [
 				{
-					"name": "Signup",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "name",
-									"value": "rahul ar",
-									"description": "User name",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
-							"protocol": "http",
-							"host": [
-								"{{HostIP}}"
-							],
-							"port": "{{HostPort}}",
-							"path": [
-								"user",
-								"signup"
-							]
-						},
-						"description": "User sign up"
-					},
-					"response": [
-						{
-							"name": "http://{{HostIP}}:{{HostPort}}/user/signup",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"name": "Content-Type",
-										"value": "application/x-www-form-urlencoded",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "urlencoded",
-									"urlencoded": [
-										{
-											"key": "name",
-											"value": "rahul",
-											"description": "User name",
-											"type": "text"
-										}
-									]
-								},
-								"url": {
-									"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
-									"protocol": "http",
-									"host": [
-										"{{HostIP}}"
-									],
-									"port": "{{HostPort}}",
-									"path": [
-										"user",
-										"signup"
-									]
-								}
-							},
-							"status": "Internal Server Error",
-							"code": 500,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "X-Powered-By",
-									"value": "Express"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "*"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Content-Length",
-									"value": "82"
-								},
-								{
-									"key": "ETag",
-									"value": "W/\"52-fVoFgHnYfDN2yVk2WjtE/w\""
-								},
-								{
-									"key": "Date",
-									"value": "Wed, 08 May 2019 09:38:01 GMT"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								}
-							],
-							"cookie": [],
-							"body": "{\n    \"sucess\": false,\n    \"error\": {\n        \"code\": 403,\n        \"message\": \"data and salt arguments required\"\n    }\n}"
-						}
-					]
+				  "key": "Content-Type",
+				  "name": "Content-Type",
+				  "value": "application/x-www-form-urlencoded",
+				  "disabled": false
+				}
+			  ],
+			  "data": [
+				{
+				  "key": "username",
+				  "value": "sijo@accubits.com",
+				  "description": "",
+				  "type": "text",
+				  "enabled": true
 				},
 				{
-					"name": "Login",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/x-www-form-urlencoded"
-							}
-						],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "name",
-									"value": "rahul ar",
-									"description": "User name",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://{{HostIP}}:{{HostPort}}/user/login",
-							"protocol": "http",
-							"host": [
-								"{{HostIP}}"
-							],
-							"port": "{{HostPort}}",
-							"path": [
-								"user",
-								"login"
-							]
-						},
-						"description": "User login"
-					},
-					"response": [
-						{
-							"name": "http://{{HostIP}}:{{HostPort}}/user/signup",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"name": "Content-Type",
-										"value": "application/x-www-form-urlencoded",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "urlencoded",
-									"urlencoded": [
-										{
-											"key": "name",
-											"value": "rahul",
-											"description": "User name",
-											"type": "text"
-										}
-									]
-								},
-								"url": {
-									"raw": "http://{{HostIP}}:{{HostPort}}/user/signup",
-									"protocol": "http",
-									"host": [
-										"{{HostIP}}"
-									],
-									"port": "{{HostPort}}",
-									"path": [
-										"user",
-										"signup"
-									]
-								}
-							},
-							"status": "Internal Server Error",
-							"code": 500,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "X-Powered-By",
-									"value": "Express"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "*"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Content-Length",
-									"value": "82"
-								},
-								{
-									"key": "ETag",
-									"value": "W/\"52-fVoFgHnYfDN2yVk2WjtE/w\""
-								},
-								{
-									"key": "Date",
-									"value": "Wed, 08 May 2019 09:38:01 GMT"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								}
-							],
-							"cookie": [],
-							"body": "{\n    \"sucess\": false,\n    \"error\": {\n        \"code\": 403,\n        \"message\": \"data and salt arguments required\"\n    }\n}"
-						}
-					]
+				  "key": "password",
+				  "value": "sijo1234",
+				  "description": "",
+				  "type": "text",
+				  "enabled": true
 				}
+			  ],
+			  "method": "POST",
+			  "dataMode": "urlencoded"
+			},
+			"headers": [
+			  {
+				"key": "Access-Control-Allow-Origin",
+				"value": "*",
+				"name": "Access-Control-Allow-Origin",
+				"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+			  },
+			  {
+				"key": "Connection",
+				"value": "keep-alive",
+				"name": "Connection",
+				"description": "Options that are desired for the connection"
+			  },
+			  {
+				"key": "Content-Length",
+				"value": "60",
+				"name": "Content-Length",
+				"description": "The length of the response body in octets (8-bit bytes)"
+			  },
+			  {
+				"key": "Content-Type",
+				"value": "application/json; charset=utf-8",
+				"name": "Content-Type",
+				"description": "The mime type of this content"
+			  },
+			  {
+				"key": "Date",
+				"value": "Thu, 12 Sep 2019 11:59:18 GMT",
+				"name": "Date",
+				"description": "The date and time that the message was sent"
+			  },
+			  {
+				"key": "ETag",
+				"value": "W/\"3c-anz1eBWKJf1rKKYalw3cL7pix8E\"",
+				"name": "ETag",
+				"description": "An identifier for a specific version of a resource, often a message digest"
+			  },
+			  {
+				"key": "X-Powered-By",
+				"value": "Express",
+				"name": "X-Powered-By",
+				"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+			  }
 			],
-			"description": "User related info"
-		}
+			"cookies": [
+			  {
+				"domain": "localhost",
+				"expirationDate": 2147483647,
+				"httpOnly": true,
+				"name": "connect.sid",
+				"path": "/",
+				"secure": false,
+				"url": "http://localhost:3000",
+				"value": "s%3AweQXz765SB9rWaRjKKxc7JerJXVX2JoI.afvaIAhlDfunGBe97yF2WazGN9lB5kWOdU5QAU2u2J4"
+			  }
+			],
+			"request": "51f22af7-4c85-4e7a-85a8-6dc4e35279b4",
+			"collection": "50962618-0226-4254-9a4c-3987980b8955"
+		  }
+		],
+		"preRequestScript": null,
+		"tests": "var jsonData = JSON.parse(responseBody);\nif(pm.response.code==200){\n    pm.environment.set(\"user_token\", jsonData.token);    \n}",
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "56dc00b6-f5ce-4240-8856-80b58eff29f1",
+		"name": "powerball draftTickets",
+		"url": "{{URL}}/powerball/draftTickets",
+		"description": "Drafting power ball tickets",
+		"data": [],
+		"dataMode": "raw",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"value": "application/json",
+			"description": "",
+			"type": "text"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0LCJlbWFpbElkIjoic2lqb0BhY2N1Yml0cy5jb20iLCJmaXJzdE5hbWUiOiJzaWpvIiwibGFzdE5hbWUiOiJqb3NlcGgiLCJkZXZpY2UiOiJNIn0sImlhdCI6MTU3MTM3NzM5MH0.igAciq8ID478mUVJsNCSyRG1LsGwsIy4rsy78p_GIyg"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0LCJlbWFpbElkIjoic2lqb0BhY2N1Yml0cy5jb20iLCJmaXJzdE5hbWUiOiJzaWpvIiwibGFzdE5hbWUiOiJqb3NlcGgiLCJkZXZpY2UiOiJNIn0sImlhdCI6MTU3MTM3NzM5MH0.igAciq8ID478mUVJsNCSyRG1LsGwsIy4rsy78p_GIyg"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"rawModeData": "{\n   \"contestId\":\"1\",\n   \"amount\":\"6\",\n   \"noOfTickets\":2,\n   \"isPowerPlay\":\"true\",\n   \"ticketNumbers\":[\n      {\n         \"whiteball1\":\"2\",\n         \"whiteball2\":\"3\",\n         \"whiteball3\":\"34\",\n         \"whiteball4\":\"45\",\n         \"whiteball5\":\"46\",\n         \"powerball\":\"3\"\n      },\n      {\n         \"whiteball1\":\"12\",\n         \"whiteball2\":\"32\",\n         \"whiteball3\":\"14\",\n         \"whiteball4\":\"44\",\n         \"whiteball5\":\"4\",\n         \"powerball\":\"3\"\n      }\n   ]\n}",
+		"headers": "Content-Type: application/json\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "5aa1867b-d061-45a7-b5f2-62786eac8104",
+		"name": "getDepositAddress",
+		"url": "{{URL}}/payment/getDepositAddress",
+		"description": "Get the deposit address of payment",
+		"data": [
+		  {
+			"key": "transRefId",
+			"value": "dac2ef1e-37d1-4423-820f-404457334af5",
+			"description": "Id of the transaction details",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "paymentCurrency",
+			"value": "1",
+			"description": "Currency type of the payment\n1 : BTC\n2: ETH",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "params",
+		"headerData": [],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{user_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{user_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "5c2756ed-0013-4512-b8d8-0c228b1be41c",
+		"name": "usertransactionDetails",
+		"url": "{{URL}}/admin/usertransactionDetails",
+		"description": "Get the transaction details of a user",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dV-IjByqz",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dV-IjByqz"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "62bc834d-57e0-4bb7-91f4-e81ab0f817e0",
+		"name": "getStatus",
+		"url": "{{URL}}/payment/getStatus",
+		"description": "Get the status of the transactions",
+		"data": [
+		  {
+			"key": "transRefId",
+			"value": "dac2ef1e-37d1-4423-820f-404457334af5",
+			"description": "Id of the transaction details",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{user_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{user_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "62e3ad77-00d3-4206-81b2-3c1b2bbcca3f",
+		"name": "recentGames",
+		"url": "{{URL}}/admin/recentGames",
+		"description": "Listing the recent games",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "VM9QZ7wVN",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "VM9QZ7wVN"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "64677221-5ffa-4e73-84d1-33a1b78f845f",
+		"name": "removePowerballWinner",
+		"url": "{{URL}}/admin/removePowerballWinner",
+		"description": "Changing the powerball winner",
+		"data": [
+		  {
+			"key": "winnerId",
+			"value": "35",
+			"description": "Id of the winner to be removed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "contestId",
+			"value": "1",
+			"description": "Id of the contest",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "prizeType",
+			"value": "6",
+			"description": "Type of the prize\n(\n1:Jackpot amount of the contest\n2: $1 Million\n3:$50,000\n4:$100\n5:$100\n6:$7\n7:$7\n8:$4\n9:$4\n)",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "TAjxjwsj",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "TAjxjwsj"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "660e00d5-2ea5-4a52-8986-bc23dc40694c",
+		"name": "viewGames",
+		"url": "{{URL}}/games/viewGames",
+		"description": "Dispalying the details of the games",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "noauth"
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "6c57e0cb-9cbd-44cb-a5ea-b2eb949d2650",
+		"name": "profileUpdation",
+		"url": "{{URL}}/user/profileUpdation",
+		"description": "Updating the details of a user",
+		"data": [
+		  {
+			"key": "firstName",
+			"value": "vigin",
+			"description": "First name of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "lastName",
+			"value": "vp",
+			"description": "Last name of the user(Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "dob",
+			"value": "1995-04-04",
+			"description": "Date of birth of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "phoneNo",
+			"value": "2ds",
+			"description": "Phone number of the user (Minimum length is 10 and maximum length is 20)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "country",
+			"value": "1",
+			"description": "Country of the user(Drop down)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "state",
+			"value": "jkgkj",
+			"description": "State of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "city",
+			"value": "ujguog",
+			"description": "City of the user (Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "zip",
+			"value": "3",
+			"description": "Zip code of the user(Maximun length 50 characters)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "streetAddress",
+			"value": "hgdhtjdjtd",
+			"description": "Street address of the user(Maximun length 100 characters)",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  },
+		  {
+			"key": "Authorization",
+			"value": "C4xUel_FJ",
+			"description": "",
+			"enabled": false
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dxzaI-tZ",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dxzaI-tZ"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: C4xUel_FJ\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "774323a6-04e5-4b4e-a7fe-0f474caa6860",
+		"name": "removeContest",
+		"url": "{{URL}}/admin/removeContest/6",
+		"description": "Remone the details of a contest",
+		"data": [],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "DELETE",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "Hd33RoKog",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "Hd33RoKog"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "7f10f541-d88d-48b4-be88-d6617dfca4fd",
+		"name": "user logout",
+		"url": "{{URL}}/user/logout",
+		"description": "Logout the session",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "tKlTqCf0s",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "tKlTqCf0s"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "7f138ce0-a1ae-40a9-95dc-27c8aab47899",
+		"name": "cancel payment",
+		"url": "{{URL}}/payment/cancel",
+		"description": "To cancel a ongoing payment",
+		"data": [
+		  {
+			"key": "transRefId",
+			"value": "dac2ef1e-37d1-4423-820f-404457334af5",
+			"description": "Id of the transaction details",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{user_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{user_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "8b70e2a3-7a5d-44af-a52e-b00be803d93b",
+		"name": "Admin Login",
+		"url": "{{URL}}/admin/login",
+		"description": "Login for the admin",
+		"data": [
+		  {
+			"key": "username",
+			"value": "xxxx@xxxx.com",
+			"description": "username of the admin",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "password",
+			"value": "xxxxxxxxxxxxxxxxxxxxx",
+			"description": "password of the admin",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataOptions": null,
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [
+		  {
+			"listen": "test",
+			"script": {
+			  "id": "31e95226-0ca2-457d-be63-9aa3cc8c62c3",
+			  "exec": [
+				"var jsonData = JSON.parse(responseBody);",
+				"if(pm.response.code==200){",
+				"    pm.environment.set(\"admin_token\", jsonData.token);    ",
+				"}"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"preRequestScript": null,
+		"tests": "var jsonData = JSON.parse(responseBody);\nif(pm.response.code==200){\n    pm.environment.set(\"admin_token\", jsonData.token);    \n}",
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "8bc899da-61dd-438c-87f2-6d1a349256c8",
+		"name": "UserDetails",
+		"url": "{{URL}}/user/getUserDetails",
+		"description": "Getting the details of a specific user",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"description": "",
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  },
+		  {
+			"description": "",
+			"enabled": false,
+			"key": "Authorization",
+			"value": "C4xUel_FJ"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "RYKCIPnpP",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "RYKCIPnpP"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: C4xUel_FJ\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "8d51d028-bbd0-431e-8ff2-2767490262fd",
+		"name": "getResults",
+		"url": "{{URL}}/games/getResults",
+		"description": "Get the results of a particular game",
+		"data": [
+		  {
+			"key": "page",
+			"value": "1",
+			"description": "Page number to be displayed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "gameType",
+			"value": "1",
+			"description": "Type of the game (1 : powerball)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "drawDate",
+			"value": "2011-11-01",
+			"description": "optional ; Draw date of the result",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "90c6c2cf-13f6-4cf3-8694-fdfeae3085f7",
+		"name": "powerballParticipantsDetails",
+		"url": "{{URL}}/admin/powerballParticipantsDetails?contestId=29&searchQuery=name&pageNumber=1&limit=1",
+		"description": "Listing the details of a powerball participants",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "contestId",
+			"value": "29",
+			"equals": true,
+			"description": "Id of the contest",
+			"enabled": true
+		  },
+		  {
+			"key": "searchQuery",
+			"value": "name",
+			"equals": true,
+			"description": "Keyword to be searched(first name or last name of the participant)",
+			"enabled": true
+		  },
+		  {
+			"key": "pageNumber",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be dispalyed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "1",
+			"equals": true,
+			"description": "Limit of the details to be displayed per page",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "-d_lkxTD5u",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "-d_lkxTD5u"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "97693d65-2753-4d8f-8dc1-6cead46b6f0a",
+		"name": "getPowerballDraftResult",
+		"url": "{{URL}}/admin/getPowerballDraftResult/1",
+		"description": "Get the powerball game result",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "TAjxjwsj",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"responses": [
+		  {
+			"id": "d019b653-2db9-4176-847f-77af508b1d44",
+			"name": "getPowerballDraftResult",
+			"status": "",
+			"mime": "",
+			"language": "json",
+			"text": "{\"status\":true,\"drawResult\":{\"id\":5,\"powerPlayNumber\":3,\"whiteball1\":14,\"whiteball2\":19,\"whiteball3\":39,\"whiteball4\":47,\"whiteball5\":51,\"powerball\":15},\"winners\":[{\"type\":5,\"contestId\":1,\"winnerCount\":1},{\"type\":6,\"contestId\":1,\"winnerCount\":3}]}",
+			"responseCode": {
+			  "code": 200,
+			  "name": "OK",
+			  "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"requestObject": {
+			  "url": "http://{{host}}:{{port}}/admin/getPowerballDraftResult/1",
+			  "pathVariableData": [],
+			  "queryParams": [],
+			  "headerData": [],
+			  "data": null,
+			  "method": "GET",
+			  "dataMode": null
+			},
+			"headers": [
+			  {
+				"key": "Access-Control-Allow-Origin",
+				"value": "*",
+				"name": "Access-Control-Allow-Origin",
+				"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+			  },
+			  {
+				"key": "Connection",
+				"value": "keep-alive",
+				"name": "Connection",
+				"description": "Options that are desired for the connection"
+			  },
+			  {
+				"key": "Content-Length",
+				"value": "246",
+				"name": "Content-Length",
+				"description": "The length of the response body in octets (8-bit bytes)"
+			  },
+			  {
+				"key": "Content-Type",
+				"value": "application/json; charset=utf-8",
+				"name": "Content-Type",
+				"description": "The mime type of this content"
+			  },
+			  {
+				"key": "Date",
+				"value": "Sat, 21 Sep 2019 17:15:57 GMT",
+				"name": "Date",
+				"description": "The date and time that the message was sent"
+			  },
+			  {
+				"key": "ETag",
+				"value": "W/\"f6-lODChyfSh0UbWZ6J5bY/LcyzHQA\"",
+				"name": "ETag",
+				"description": "An identifier for a specific version of a resource, often a message digest"
+			  },
+			  {
+				"key": "X-Powered-By",
+				"value": "Express",
+				"name": "X-Powered-By",
+				"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+			  }
+			],
+			"cookies": [
+			  {
+				"domain": "localhost",
+				"expirationDate": 2147483647,
+				"httpOnly": true,
+				"name": "connect.sid",
+				"path": "/",
+				"secure": false,
+				"url": "http://localhost:3000",
+				"value": "s%3AweQXz765SB9rWaRjKKxc7JerJXVX2JoI.afvaIAhlDfunGBe97yF2WazGN9lB5kWOdU5QAU2u2J4"
+			  }
+			],
+			"request": "97693d65-2753-4d8f-8dc1-6cead46b6f0a",
+			"collection": "50962618-0226-4254-9a4c-3987980b8955"
+		  }
+		],
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "TAjxjwsj"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "9f918306-11e1-4dd4-8e65-7b9e90287aa9",
+		"name": "updatePowerballResult",
+		"url": "{{URL}}/admin/updatePowerballResult",
+		"description": "Updating the powerball results",
+		"data": [
+		  {
+			"key": "contestId",
+			"value": "1",
+			"description": "Id of the contest to be edited",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "whiteball1",
+			"value": "15",
+			"description": "Details to be updated in whiteball 1 in result",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "whiteball2",
+			"value": "19",
+			"description": "Details to be updated in whiteball 2 in result",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "whiteball3",
+			"value": "39",
+			"description": "Details to be updated in whiteball 3 in result",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "whiteball4",
+			"value": "47",
+			"description": "Details to be updated in whiteball 4 in result",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "whiteball5",
+			"value": "51",
+			"description": "Details to be updated in whiteball 5 in result",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "powerball",
+			"value": "16",
+			"description": "Details to be updated in powerball in result",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "lcGy6J3l",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "lcGy6J3l"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "a06afc2f-2420-453c-90b7-249e50ca09c7",
+		"name": "getWalletTransactions",
+		"url": "{{URL}}/admin/getWalletTransactions?page=1&limit=10&date=2019-10-04&type=1&status=",
+		"description": "Get all the wallet transactions",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "page",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be dislayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "10",
+			"equals": true,
+			"description": "Limit of the details per page",
+			"enabled": true
+		  },
+		  {
+			"key": "date",
+			"value": "2019-10-04",
+			"equals": true,
+			"description": "Transaction date of the ticket (date in UTC)",
+			"enabled": true
+		  },
+		  {
+			"key": "type",
+			"value": "1",
+			"equals": true,
+			"description": "Type of wallet transactions(\n1:Receive\n2:Spend)",
+			"enabled": true
+		  },
+		  {
+			"key": "status",
+			"value": "",
+			"equals": true,
+			"description": "Status of the wallet transactions(\n1:Processing\n2:Success\n3:Failed)",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "-7pyBRsQmT",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "-7pyBRsQmT"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "a2d956a2-e5b9-44e0-aaa0-43a10b44de00",
+		"name": "updateContestDetails",
+		"url": "{{URL}}/admin/updateContestDetails",
+		"description": "Updating the details of the contest",
+		"data": [
+		  {
+			"key": "contestId",
+			"value": "15",
+			"description": "Id of the contest to be updated",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "startsDate",
+			"value": "2019-10-16 13:57:00",
+			"description": "Start date of the contest (date in UTC)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "drawDate",
+			"value": "2019-10-21 13:57:00",
+			"description": "Draw date of the contest (date in UTC)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "jackpot",
+			"value": "200000",
+			"description": "Jackpot amount for the contest",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "status",
+			"value": "1",
+			"description": "Status of the contest\n(0:Inactive,\n1:Active)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "ticketAmount",
+			"value": "2",
+			"description": "Amount of the ticket",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "isPowerPlay",
+			"value": "true",
+			"description": "Powerplay status(true or false)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "powerPlayTicketAmount",
+			"value": "3232",
+			"description": "Amount of the powerplay ;Optional (If isPowerPlay is true) ",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "a33713ef-9b5b-4cf9-bf9e-fadcc5a780a0",
+		"name": "forgotPassword",
+		"url": "{{URL}}/user/forgotPassword",
+		"description": "API for forgot password",
+		"data": [
+		  {
+			"key": "emailId",
+			"value": "vigin@accubits.com",
+			"description": "Email address to which the forgot password link has to be send",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": null,
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "a3904980-5b86-43c1-96c3-bacaa531ba1f",
+		"name": "getWalletOverview",
+		"url": "{{URL}}/admin/getWalletOverview",
+		"description": "Get the overview of the wallet",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "add1be2b-f4e3-420e-81e3-a99ef73ca8d0",
+		"name": "getTransactions",
+		"url": "{{URL}}/admin/getTransactions?page=1&limit=100&date=2019-10-04&status=5",
+		"description": "Get all the transaction details",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "page",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be dislayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "100",
+			"equals": true,
+			"description": "Limit of the details per page",
+			"enabled": true
+		  },
+		  {
+			"key": "date",
+			"value": "2019-10-04",
+			"equals": true,
+			"description": "Transaction date of the ticket (date in UTC)",
+			"enabled": true
+		  },
+		  {
+			"key": "status",
+			"value": "5",
+			"equals": true,
+			"description": "Status of the transactions(\n1:Initiated\n2:Processing\n3:Success\n4:Rejected\n5:Dispute)",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "b35e3ebb-5015-45b5-aec6-751c1500536a",
+		"name": "passwordReset",
+		"url": "{{URL}}/user/passwordReset",
+		"description": "Resetting the user's password",
+		"data": [
+		  {
+			"key": "newPassword",
+			"value": "sijo12345",
+			"description": "New password of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "confirmPassword",
+			"value": "sijo12345",
+			"description": "Confirm password of the user",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"description": "",
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  },
+		  {
+			"description": "",
+			"enabled": true,
+			"key": "Authorization",
+			"value": "cv-WB4yQh"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": null,
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: cv-WB4yQh\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "b51e8323-14ed-4d76-88ec-4b5d4798710e",
+		"name": "getWalletBalance",
+		"url": "{{URL}}/admin/getWalletBalance?userId=1",
+		"description": "Get the wallet balance of admin",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "userId",
+			"value": "1",
+			"equals": true,
+			"description": "Id of the user",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "tIb8bVQMP",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "tIb8bVQMP"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "b81e62b1-c7ba-42e0-a6ea-ec137000b3b1",
+		"name": "getAllContestDetails",
+		"url": "{{URL}}/admin/getAllContestDetails",
+		"description": "Get all the contest details",
+		"data": [
+		  {
+			"key": "page",
+			"value": "1",
+			"description": "Page number to be displayed",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "size",
+			"value": "10",
+			"description": "Limit of the details displayed per page",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "gameType",
+			"value": "1",
+			"description": "Type of the game to be played (! for powerball) ",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "isPowerPlay",
+			"value": "N",
+			"description": "optional; Powerplay status(true or false)",
+			"type": "text",
+			"enabled": false
+		  },
+		  {
+			"key": "drawDate",
+			"value": "2019-11-02",
+			"description": "optional  Draw date of the contest (date in UTC format(YYYY-MM-DD))",
+			"type": "text",
+			"enabled": false
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "bf84aacc-128c-4e75-ba04-28ce3d092f84",
+		"name": "getContestDetails",
+		"url": "{{URL}}/admin/getContestDetails",
+		"description": "Get the details of a contest",
+		"data": [
+		  {
+			"key": "contestId",
+			"value": "1",
+			"description": "Id of the contest",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "wZMWDKa_j",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "wZMWDKa_j"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "c1077ad3-5d3a-4535-8b52-dcd2b8a81043",
+		"name": "publishPowerballResult",
+		"url": "{{URL}}/admin/publishPowerballResult",
+		"description": "Publish the powerball result",
+		"data": [
+		  {
+			"key": "contestId",
+			"value": "1",
+			"description": "Id of the contest to be published",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "ByDheu_oo",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"responses": [
+		  {
+			"id": "973afd2d-55c4-442b-9255-7a87bb569f41",
+			"name": "publishPowerballResult",
+			"status": "",
+			"mime": "",
+			"language": "json",
+			"text": "{\"status\":false,\"data\":\"No contest details found\"}",
+			"responseCode": {
+			  "code": 400,
+			  "name": "Bad Request",
+			  "detail": "The request cannot be fulfilled due to bad syntax."
+			},
+			"requestObject": {
+			  "url": "http://{{host}}:{{port}}/admin/publishPowerballResult",
+			  "pathVariableData": [],
+			  "queryParams": [],
+			  "headerData": [
+				{
+				  "key": "Content-Type",
+				  "name": "Content-Type",
+				  "value": "application/x-www-form-urlencoded",
+				  "disabled": false
+				}
+			  ],
+			  "data": [
+				{
+				  "key": "contestId",
+				  "value": "11",
+				  "description": "",
+				  "type": "text",
+				  "enabled": true
+				}
+			  ],
+			  "method": "POST",
+			  "dataMode": "urlencoded"
+			},
+			"headers": [
+			  {
+				"key": "Access-Control-Allow-Origin",
+				"value": "*",
+				"name": "Access-Control-Allow-Origin",
+				"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+			  },
+			  {
+				"key": "Connection",
+				"value": "keep-alive",
+				"name": "Connection",
+				"description": "Options that are desired for the connection"
+			  },
+			  {
+				"key": "Content-Length",
+				"value": "50",
+				"name": "Content-Length",
+				"description": "The length of the response body in octets (8-bit bytes)"
+			  },
+			  {
+				"key": "Content-Type",
+				"value": "application/json; charset=utf-8",
+				"name": "Content-Type",
+				"description": "The mime type of this content"
+			  },
+			  {
+				"key": "Date",
+				"value": "Sun, 22 Sep 2019 11:34:12 GMT",
+				"name": "Date",
+				"description": "The date and time that the message was sent"
+			  },
+			  {
+				"key": "ETag",
+				"value": "W/\"32-OBZ8ykTB7vlfoLg9L7caCAU81CA\"",
+				"name": "ETag",
+				"description": "An identifier for a specific version of a resource, often a message digest"
+			  },
+			  {
+				"key": "X-Powered-By",
+				"value": "Express",
+				"name": "X-Powered-By",
+				"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+			  }
+			],
+			"cookies": [
+			  {
+				"domain": "localhost",
+				"expirationDate": 2147483647,
+				"httpOnly": true,
+				"name": "connect.sid",
+				"path": "/",
+				"secure": false,
+				"url": "http://localhost:3000",
+				"value": "s%3AweQXz765SB9rWaRjKKxc7JerJXVX2JoI.afvaIAhlDfunGBe97yF2WazGN9lB5kWOdU5QAU2u2J4"
+			  }
+			],
+			"request": "c1077ad3-5d3a-4535-8b52-dcd2b8a81043",
+			"collection": "50962618-0226-4254-9a4c-3987980b8955"
+		  }
+		],
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "ByDheu_oo"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "c63ed7fc-543b-4d35-a0d7-8b6f2c015fc1",
+		"name": "viewUser",
+		"url": "{{URL}}/admin/viewUser?id=1",
+		"description": "Display the details of a particular user",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"type": "text"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "id",
+			"value": "1",
+			"equals": true,
+			"description": "Id of the user",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dV-IjByqz",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dV-IjByqz"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "c6d5aab5-a27f-4e46-9a1d-43cb187d0d9f",
+		"name": "getGameDetails",
+		"url": "{{URL}}/user/getGameDetails?pageNumber=1&limit=1",
+		"description": "Get the details ofthe on going games",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"description": "",
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  },
+		  {
+			"description": "",
+			"enabled": false,
+			"key": "Authorization",
+			"value": "C4xUel_FJ"
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "pageNumber",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be displayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "1",
+			"equals": true,
+			"description": "Limit of the details displayed in a  page",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0LCJlbWFpbElkIjoic2lqb0BhY2N1Yml0cy5jb20iLCJmaXJzdE5hbWUiOiJzaWpvIiwibGFzdE5hbWUiOiJqb3NlcGgiLCJkZXZpY2UiOiJNIn0sImlhdCI6MTU3MTM4MDQ2OH0.WHOBNsvGbKneQv1EMFU27wyY48o3DQztaFtG0v0qmHg"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0LCJlbWFpbElkIjoic2lqb0BhY2N1Yml0cy5jb20iLCJmaXJzdE5hbWUiOiJzaWpvIiwibGFzdE5hbWUiOiJqb3NlcGgiLCJkZXZpY2UiOiJNIn0sImlhdCI6MTU3MTM4MDQ2OH0.WHOBNsvGbKneQv1EMFU27wyY48o3DQztaFtG0v0qmHg"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: C4xUel_FJ\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "c6e5634e-797c-446f-a685-63999b1b9b32",
+		"name": "generateQRCode",
+		"url": "{{URL}}/payment/generateQRCode?text=text&width=150",
+		"description": "Generate the QR code",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "text",
+			"value": "text",
+			"equals": true,
+			"description": "Text to be encoded in QR Code",
+			"enabled": true
+		  },
+		  {
+			"key": "width",
+			"value": "150",
+			"equals": true,
+			"description": "optional Size of the QR Code to be displayed (Default :150px)",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMDcsImVtYWlsSWQiOiJzaWpvQGFjY3ViaXRzLmNvbSIsImZpcnN0TmFtZSI6InNpam8iLCJsYXN0TmFtZSI6Impvc2VwaCIsImRldmljZSI6Ik0ifSwiaWF0IjoxNTcxMzgzNzc4fQ.dcqFLTyN0OVShQBtabzZpRFahuiyXsktQ74zeBAHJhM"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMDcsImVtYWlsSWQiOiJzaWpvQGFjY3ViaXRzLmNvbSIsImZpcnN0TmFtZSI6InNpam8iLCJsYXN0TmFtZSI6Impvc2VwaCIsImRldmljZSI6Ik0ifSwiaWF0IjoxNTcxMzgzNzc4fQ.dcqFLTyN0OVShQBtabzZpRFahuiyXsktQ74zeBAHJhM"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "c7a635a2-55ca-4ad4-80fc-2d4e03a6fe57",
+		"name": "passwordUpdate",
+		"url": "{{URL}}/user/passwordUpdate",
+		"description": "Updating the user password",
+		"data": [
+		  {
+			"key": "currentPassword",
+			"value": "sijo1234",
+			"description": "Current password of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "newPassword",
+			"value": "sijo12345",
+			"description": "New password of the user",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "confirmPassword",
+			"value": "sijo12345",
+			"description": "Confirm the new password of the user",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  },
+		  {
+			"key": "Authorization",
+			"value": "cv-WB4yQh",
+			"description": "",
+			"enabled": true
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "dxzaI-tZ",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "dxzaI-tZ"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: cv-WB4yQh\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "cd5c0f07-8068-4790-9e24-6c76b42e3a3d",
+		"name": "checkUserParticipation",
+		"url": "{{URL}}/games/checkUserParticipation/1",
+		"description": "Check whether the user is participated or not",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "oALCndEI",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "oALCndEI"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "d09c021c-75db-4b43-aef6-a6a246d2cb4f",
+		"name": "viewResults",
+		"url": "{{URL}}/games/viewResults",
+		"description": "Display the results of the game",
+		"data": null,
+		"dataMode": null,
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "noauth"
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "d22d9b58-2cda-4f58-80db-4fc3695c5025",
+		"name": "blockUser",
+		"url": "{{URL}}/admin/blockUser",
+		"description": "Blocking a user from platform",
+		"data": [
+		  {
+			"key": "id",
+			"value": "12",
+			"description": "Id of the user to be blocked",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": "",
+			"type": "text"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "__yMTR7RP",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "__yMTR7RP"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "d6b99278-2bd1-48da-b6e7-4e58d5066be7",
+		"name": "getSummary",
+		"url": "{{URL}}/payment/getSummary",
+		"description": "Get the summary of the transactions",
+		"data": [
+		  {
+			"key": "transRefId",
+			"value": "4206d64d-b5e9-4edb-8d42-5568e827ab14",
+			"description": "Id of the transaction details",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "paymentType",
+			"value": "1",
+			"description": "Payment method type\n1 - wallet \n2 - using third party crypto\n3 - fiat",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{user_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{user_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "d6e40527-248c-42ca-983c-01212de3e11a",
+		"name": "getParticipantsDetailsToCsv",
+		"url": "{{URL}}/admin/getParticipantsDetailsToCsv?contestId=103",
+		"description": "Get all the participants of a contest in csv format",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "contestId",
+			"value": "103",
+			"equals": true,
+			"description": "Id of the contest",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "da9f6ce7-dba9-40d7-9c73-82a4bf605975",
+		"name": "pickRandomTickets",
+		"url": "{{URL}}/powerball/pickRandomTickets/20",
+		"description": "Generating random tickets for game",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": [],
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "dadecfea-9457-4c04-9ecd-97985999245b",
+		"name": "getUserTransactions",
+		"url": "{{URL}}/admin/getUserTransactions?page=1&limit=10&userId=4",
+		"description": "Get all the user transactions",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "page",
+			"value": "1",
+			"equals": true,
+			"description": "Page number to be dislayed",
+			"enabled": true
+		  },
+		  {
+			"key": "limit",
+			"value": "10",
+			"equals": true,
+			"description": "Limit of the details per page",
+			"enabled": true
+		  },
+		  {
+			"key": "userId",
+			"value": "4",
+			"equals": true,
+			"description": "Id of the user",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "e01306b5-49f5-48fc-a419-1078cdfc395c",
+		"name": "userUnBlock",
+		"url": "{{URL}}/admin/userUnBlock",
+		"description": "Unblock a blocked user",
+		"data": [
+		  {
+			"key": "id",
+			"value": "10",
+			"description": "Id of the user to be unBlocked",
+			"type": "text"
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"type": "text"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "Gx-aAH1w"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "Gx-aAH1w"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "e38ac8d7-0928-4b99-a06e-a0d40a6a7111",
+		"name": "contactDetails",
+		"url": "{{URL}}/user/contactDetails",
+		"description": "Contact the admin for an enquiry",
+		"data": [
+		  {
+			"key": "fullName",
+			"value": "vigin",
+			"description": "Full name of the enquirer",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "email",
+			"value": "vigin@accubits.com",
+			"description": "Email address of the enquirer",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "subject",
+			"value": "Problem",
+			"description": "Subject of the enquiry",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "message",
+			"value": "qwertyuiwertyutrdsdfghjhgfdjkjdgfhjhfgkgsttruiuyrtyudfcvvcvbnvbm,mncvbnbvvtdhghuftgyertdfhcgvtygfcythgtyfgqwerqwertyuiwertynvbm,mncvbnbvvtdhghuftgyertdfhcgvtygfcythgtyfgqwertyuiwertyutrdsdfghjhgfdjkjdgfhjhfgkgsttruiuyrtyudfcvvcvbnvbm,mncvbnbvvtdhghuftgyertdfhcgvtygfcythgtyfgqwertyuiwertyutrdsdfghjhgfdjkjdgfhjhfgkgsttruiuyrtyudfcvvcvbnvbm,mncvbnbvvtdhghuftgyertdfhcgvtygfcythgtyfg",
+			"description": "Message details of the enquiry",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"name": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": "",
+			"type": "text"
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": null,
+		"events": null,
+		"folder": null,
+		"currentHelper": null,
+		"helperAttributes": null,
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "e5f19ef9-78da-4d4c-8f52-7ecd11873e28",
+		"name": "setContestDetails",
+		"url": "{{URL}}/admin/setContestDetails",
+		"description": "Setting the contest details of the game",
+		"data": [
+		  {
+			"key": "gameType",
+			"value": "1",
+			"description": "Type of the game to be played (! for powerball)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "startsDate",
+			"value": "2019-10-28 13:57:00",
+			"description": "Start date of the contest (date in UTC)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "drawDate",
+			"value": "2019-11-25 13:57:00",
+			"description": "Draw date of the contest (date in UTC)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "jackpot",
+			"value": "200000",
+			"description": "Jackpot amount for the contest",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "status",
+			"value": "1",
+			"description": "Status of the contest\n(0:Inactive,\n1:Active)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "ticketAmount",
+			"value": "2",
+			"description": "Amount of the ticket",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "isPowerPlay",
+			"value": "true",
+			"description": "Powerplay status(true or false)",
+			"type": "text",
+			"enabled": true
+		  },
+		  {
+			"key": "powerPlayTicketAmount",
+			"value": "2",
+			"description": "Amount of the powerplay ;Optional (If isPowerPlay is true) ",
+			"type": "text",
+			"enabled": true
+		  }
+		],
+		"dataMode": "urlencoded",
+		"headerData": [
+		  {
+			"key": "Content-Type",
+			"value": "application/x-www-form-urlencoded",
+			"description": ""
+		  }
+		],
+		"method": "POST",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "Content-Type: application/x-www-form-urlencoded\n",
+		"pathVariables": []
+	  },
+	  {
+		"id": "e73bc849-ea63-424f-ad4e-c8a4621285c5",
+		"name": "getPaymentOverview",
+		"url": "{{URL}}/admin/getPaymentOverview",
+		"description": "Get the overview of the payments",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "{{admin_token}}",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": "52e8c2dd-ce01-4587-b5dd-5abc1e6c0b38",
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "{{admin_token}}"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "eeabc605-5415-4f07-8071-01f2cb202649",
+		"name": "getProfilePic",
+		"url": "{{URL}}/user/getProfilePic",
+		"description": "Get the profile picture of user",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "5EXcYq_bCF",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": null,
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "5EXcYq_bCF"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  },
+	  {
+		"id": "f7541045-f144-4dac-bb8d-aeb437df52dd",
+		"name": "getUSDvalue",
+		"url": "{{URL}}/payment/getUSDvalue?currency=BTC&amount=2",
+		"description": "Conversiopn of crypto currenct to USD",
+		"data": null,
+		"dataMode": null,
+		"headerData": [],
+		"method": "GET",
+		"pathVariableData": [],
+		"queryParams": [
+		  {
+			"key": "currency",
+			"value": "BTC",
+			"equals": true,
+			"description": "Currency to be select for getting corresponding USD value(BTC and ETH)",
+			"enabled": true
+		  },
+		  {
+			"key": "amount",
+			"value": "2",
+			"equals": true,
+			"description": "Amount to be checked",
+			"enabled": true
+		  }
+		],
+		"auth": {
+		  "type": "bearer",
+		  "bearer": [
+			{
+			  "key": "token",
+			  "value": "CJ3lO0nv",
+			  "type": "string"
+			}
+		  ]
+		},
+		"events": [],
+		"folder": null,
+		"currentHelper": "bearerAuth",
+		"helperAttributes": {
+		  "id": "bearer",
+		  "token": "CJ3lO0nv"
+		},
+		"collectionId": "50962618-0226-4254-9a4c-3987980b8955",
+		"headers": "",
+		"pathVariables": []
+	  }
 	]
-}
+  }
