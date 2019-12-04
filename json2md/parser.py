@@ -5,6 +5,11 @@ from ctor import MDDoc
 def get_rows(raw, keys):
     result = list()
     for i in raw:
+        for k in keys:
+            if k not in i:
+                i[k] = ''
+            elif not i[k]:
+                i[k] = ''
         result.append([i.get(k, '') for k in keys])
     return result
 
@@ -33,8 +38,12 @@ def parse(in_file, out_file):
                 # doc.text("> The API returns JSON structured like this:")
                 # request = api["request"]
                 # response = api["response"]
-                # doc.code_block(response[0]["body"],"json")
-                doc.text(api["description"])
+                # print(api["responses"])
+                if "responses" in api:
+                    doc.text("> The API returns JSON structured like this:")
+                    doc.code_block(api["responses"][0]["text"],"json")
+                if api["description"]:
+                    doc.text(api["description"])
                 doc.title("HTTP request",3)
                 doc.text("`"+api["method"]+" "+api["url"]+"`")
 
@@ -69,7 +78,6 @@ def parse(in_file, out_file):
                         doc.table(['Parameter', 'Description', 'Example'], rows)
                     elif api['dataMode'] == 'file':
                         doc.text(api['file']['src'])
-        doc.title("Untitled")
         for api in collection['requests']:
             if api['folder'] == None:
                 doc.title(api['name'],2)
