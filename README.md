@@ -21,3 +21,8 @@ Copy new collection
 
 Step 2:
 Run `docker-compose up json2md`
+
+
+Core repo's:
+- [Slate](https://github.com/accubits/slate)
+- [json2md](https://github.com/accubits/json2md)
