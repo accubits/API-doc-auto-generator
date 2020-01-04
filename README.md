@@ -1,42 +1,23 @@
-# API doc auto generator
-Simple app to generate API documentation using Postman collection
+# API doc generator from Postman collection
+Simple app to generate API documentation from Postman collection
 
-
+#### Initial setup
 Step 1:
-Copy the **docker-compose.yaml** file to a folder
-```yml
-version: '3.2'
-
-services:
-  web:
-    image: accubits/api-doc-auto-generator:latest
-    ports:
-      - ${PORT:-4567}:4567
-    volumes:
-      - ./output/output.md:/usr/src/app/source/index.html.md
-    depends_on:
-      - json2md
-  json2md:
-    image: accubits/json2md:latest
-    volumes:
-      - ${INPUT_FILE}:/code/postman.json
-      - ./output:/code/output
-```
+Clone the repo. https://github.com/accubits/API-doc-auto-generator.git
 
 Step 2:
-Copy the **.env** file and change the Postman collection json file location.
-```
-INPUT_FILE=./apipost.json
-PORT=4567
-```
+Replace the JSON in `apipost.json` with Postman collection JSON
 
 Step 3:
-Run the docker-compose
+Run the docker-compose file
 
 ```yaml
 docker-compose up -d
 ```
 
-To update the API doc with new data,
-- Copy new collection
-- Run ***docker-compose up json2md***
+#### Udate the API doc with new data
+Step 1:
+Copy new collection
+
+Step 2:
+Run `docker-compose up json2md`
