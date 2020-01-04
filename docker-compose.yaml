@@ -6,7 +6,8 @@ services:
     ports:
       - ${PORT:-4567}:4567
     volumes:
-      - ./output/output.md:/usr/src/app/source/index.html.md
+      - ./output/output.md:/slate/source/index.html.md
+      - ./logo.png:/slate/source/images/logo.png
     depends_on:
       - json2md
   json2md:
