@@ -1,6 +1,12 @@
 # API doc generator from Postman collection
 Simple app to generate API documentation from Postman collection
 
+
+#### Prerequestie
+- Docker
+- Docker-compose
+
+
 #### Initial setup
 Step 1:
 Clone the repo. https://github.com/accubits/API-doc-auto-generator.git
